@@ -32,8 +32,8 @@ IFS="
 "
 
 #
-TMP=/tmp/plrfsbopkg
-LOCAL_REPO_ROOT=${LOCAL_REPO_ROOT:-/var/lib/sbopkg/local}
+TMP=/tmp/sbrepocombinator
+LOCAL_REPO_ROOT=${LOCAL_REPO_ROOT:-$TMP/local}
 REPOS_CONFIG=${REPOS_CONFIG:-/etc/sbrepocombinator/repos.conf}
 
 ## -----------------------------------------------------------------------------
