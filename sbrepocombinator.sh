@@ -110,9 +110,13 @@ do
         ${modified_slackbuild_location}/* \
         ${local_slackbuild_location}/
     else
+      if [ ! -d "${LOCAL_REPO_ROOT}/${modified_repo_name}" ];
+      then
+        mkdir -p "${LOCAL_REPO_ROOT}/${modified_repo_name}";
+      fi;
       cp -arv \
         ${modified_slackbuild_location} \
-        "${LOCAL_REPO_ROOT}/"
+        "${LOCAL_REPO_ROOT}/${modified_repo_name}/"
     fi
     echo -e "\n\n"
   done
