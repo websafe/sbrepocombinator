@@ -111,7 +111,7 @@ do
         ${local_slackbuild_location}/
     else
       cp -arv \
-        ${modified_slackbuild_location}/* \
+        ${modified_slackbuild_location} \
         "${LOCAL_REPO_ROOT}/"
     fi
     echo -e "\n\n"
