@@ -1,5 +1,5 @@
 #!/bin/bash
-# sbrepocombinator v. 0.0.1
+# sbrepocombinator v. 0.0.3
 # Combine multiple slackbuild-repositories into one 'local' for sbopkg.
 
 # Copyright (c) 2014 Thomas Szteliga <ts@websafe.pl>, <https://websafe.pl/>
